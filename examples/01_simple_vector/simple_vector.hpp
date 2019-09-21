@@ -84,7 +84,7 @@ public:
     ~vector()
     {
         delete[] storage_;
-      
+
         storage_size_ = 0;
         already_used_ = 0;
         storage_ = nullptr;
